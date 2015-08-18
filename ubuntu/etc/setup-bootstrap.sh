@@ -22,7 +22,7 @@
 #
 
 ## Variables -----------------------------------------------------------------
-REPO_URL="https://raw.githubusercontent.com/GeorgeL1/openstack-in-container/develop"
+REPO_URL="https://raw.githubusercontent.com/GeorgeL1/openstack-in-container/master"
 
 # check network connectivity, stop script if no internet access
 if ! (curl --silent --head http://www.google.com/  | egrep "20[0-9] Found|30[0-9] Found" >/dev/null) then
